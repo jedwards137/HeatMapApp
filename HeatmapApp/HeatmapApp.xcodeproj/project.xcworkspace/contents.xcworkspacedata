@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HeatMap.xcodeproj">
+      location = "self:HeatmapApp.xcodeproj">
    </FileRef>
 </Workspace>

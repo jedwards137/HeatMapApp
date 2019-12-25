@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC31D20623B3D907006162D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D20523B3D907006162D7 /* AppDelegate.swift */; };
-		FC31D20823B3D907006162D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D20723B3D907006162D7 /* SceneDelegate.swift */; };
-		FC31D20A23B3D907006162D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D20923B3D907006162D7 /* ContentView.swift */; };
-		FC31D20C23B3D913006162D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31D20B23B3D913006162D7 /* Assets.xcassets */; };
-		FC31D20F23B3D913006162D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31D20E23B3D913006162D7 /* Preview Assets.xcassets */; };
-		FC31D21223B3D913006162D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31D21023B3D913006162D7 /* LaunchScreen.storyboard */; };
-		FC31D21D23B3D914006162D7 /* HeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D21C23B3D914006162D7 /* HeatMapTests.swift */; };
-		FC31D22823B3D914006162D7 /* HeatMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D22723B3D914006162D7 /* HeatMapUITests.swift */; };
+		FC31D24223B3DAC1006162D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D24123B3DAC1006162D7 /* AppDelegate.swift */; };
+		FC31D24423B3DAC1006162D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D24323B3DAC1006162D7 /* SceneDelegate.swift */; };
+		FC31D24623B3DAC1006162D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D24523B3DAC1006162D7 /* ViewController.swift */; };
+		FC31D24923B3DAC1006162D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31D24723B3DAC1006162D7 /* Main.storyboard */; };
+		FC31D24B23B3DAC9006162D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31D24A23B3DAC9006162D7 /* Assets.xcassets */; };
+		FC31D24E23B3DAC9006162D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31D24C23B3DAC9006162D7 /* LaunchScreen.storyboard */; };
+		FC31D25923B3DACA006162D7 /* HeatmapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D25823B3DACA006162D7 /* HeatmapAppTests.swift */; };
+		FC31D26423B3DACA006162D7 /* HeatmapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D26323B3DACA006162D7 /* HeatmapAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC31D21923B3D914006162D7 /* PBXContainerItemProxy */ = {
+		FC31D25523B3DACA006162D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC31D1FA23B3D907006162D7 /* Project object */;
+			containerPortal = FC31D23623B3DAC1006162D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC31D20123B3D907006162D7;
-			remoteInfo = HeatMap;
+			remoteGlobalIDString = FC31D23D23B3DAC1006162D7;
+			remoteInfo = HeatmapApp;
 		};
-		FC31D22423B3D914006162D7 /* PBXContainerItemProxy */ = {
+		FC31D26023B3DACA006162D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC31D1FA23B3D907006162D7 /* Project object */;
+			containerPortal = FC31D23623B3DAC1006162D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC31D20123B3D907006162D7;
-			remoteInfo = HeatMap;
+			remoteGlobalIDString = FC31D23D23B3DAC1006162D7;
+			remoteInfo = HeatmapApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC31D20223B3D907006162D7 /* HeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC31D20523B3D907006162D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC31D20723B3D907006162D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC31D20923B3D907006162D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FC31D20B23B3D913006162D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC31D20E23B3D913006162D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FC31D21123B3D913006162D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC31D21323B3D913006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC31D21823B3D914006162D7 /* HeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC31D21C23B3D914006162D7 /* HeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapTests.swift; sourceTree = "<group>"; };
-		FC31D21E23B3D914006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC31D22323B3D914006162D7 /* HeatMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC31D22723B3D914006162D7 /* HeatMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapUITests.swift; sourceTree = "<group>"; };
-		FC31D22923B3D914006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31D23E23B3DAC1006162D7 /* HeatmapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatmapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC31D24123B3DAC1006162D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC31D24323B3DAC1006162D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC31D24523B3DAC1006162D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC31D24823B3DAC1006162D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC31D24A23B3DAC9006162D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC31D24D23B3DAC9006162D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC31D24F23B3DAC9006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31D25423B3DACA006162D7 /* HeatmapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatmapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC31D25823B3DACA006162D7 /* HeatmapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapAppTests.swift; sourceTree = "<group>"; };
+		FC31D25A23B3DACA006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31D25F23B3DACA006162D7 /* HeatmapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatmapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC31D26323B3DACA006162D7 /* HeatmapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapAppUITests.swift; sourceTree = "<group>"; };
+		FC31D26523B3DACA006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC31D1FF23B3D907006162D7 /* Frameworks */ = {
+		FC31D23B23B3DAC1006162D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC31D21523B3D914006162D7 /* Frameworks */ = {
+		FC31D25123B3DACA006162D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC31D22023B3D914006162D7 /* Frameworks */ = {
+		FC31D25C23B3DACA006162D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,146 +76,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC31D1F923B3D907006162D7 = {
+		FC31D23523B3DAC1006162D7 = {
 			isa = PBXGroup;
 			children = (
-				FC31D20423B3D907006162D7 /* HeatMap */,
-				FC31D21B23B3D914006162D7 /* HeatMapTests */,
-				FC31D22623B3D914006162D7 /* HeatMapUITests */,
-				FC31D20323B3D907006162D7 /* Products */,
+				FC31D24023B3DAC1006162D7 /* HeatmapApp */,
+				FC31D25723B3DACA006162D7 /* HeatmapAppTests */,
+				FC31D26223B3DACA006162D7 /* HeatmapAppUITests */,
+				FC31D23F23B3DAC1006162D7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FC31D20323B3D907006162D7 /* Products */ = {
+		FC31D23F23B3DAC1006162D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC31D20223B3D907006162D7 /* HeatMap.app */,
-				FC31D21823B3D914006162D7 /* HeatMapTests.xctest */,
-				FC31D22323B3D914006162D7 /* HeatMapUITests.xctest */,
+				FC31D23E23B3DAC1006162D7 /* HeatmapApp.app */,
+				FC31D25423B3DACA006162D7 /* HeatmapAppTests.xctest */,
+				FC31D25F23B3DACA006162D7 /* HeatmapAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC31D20423B3D907006162D7 /* HeatMap */ = {
+		FC31D24023B3DAC1006162D7 /* HeatmapApp */ = {
 			isa = PBXGroup;
 			children = (
-				FC31D20523B3D907006162D7 /* AppDelegate.swift */,
-				FC31D20723B3D907006162D7 /* SceneDelegate.swift */,
-				FC31D20923B3D907006162D7 /* ContentView.swift */,
-				FC31D20B23B3D913006162D7 /* Assets.xcassets */,
-				FC31D21023B3D913006162D7 /* LaunchScreen.storyboard */,
-				FC31D21323B3D913006162D7 /* Info.plist */,
-				FC31D20D23B3D913006162D7 /* Preview Content */,
+				FC31D24123B3DAC1006162D7 /* AppDelegate.swift */,
+				FC31D24323B3DAC1006162D7 /* SceneDelegate.swift */,
+				FC31D24523B3DAC1006162D7 /* ViewController.swift */,
+				FC31D24723B3DAC1006162D7 /* Main.storyboard */,
+				FC31D24A23B3DAC9006162D7 /* Assets.xcassets */,
+				FC31D24C23B3DAC9006162D7 /* LaunchScreen.storyboard */,
+				FC31D24F23B3DAC9006162D7 /* Info.plist */,
 			);
-			path = HeatMap;
+			path = HeatmapApp;
 			sourceTree = "<group>";
 		};
-		FC31D20D23B3D913006162D7 /* Preview Content */ = {
+		FC31D25723B3DACA006162D7 /* HeatmapAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC31D20E23B3D913006162D7 /* Preview Assets.xcassets */,
+				FC31D25823B3DACA006162D7 /* HeatmapAppTests.swift */,
+				FC31D25A23B3DACA006162D7 /* Info.plist */,
 			);
-			path = "Preview Content";
+			path = HeatmapAppTests;
 			sourceTree = "<group>";
 		};
-		FC31D21B23B3D914006162D7 /* HeatMapTests */ = {
+		FC31D26223B3DACA006162D7 /* HeatmapAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FC31D21C23B3D914006162D7 /* HeatMapTests.swift */,
-				FC31D21E23B3D914006162D7 /* Info.plist */,
+				FC31D26323B3DACA006162D7 /* HeatmapAppUITests.swift */,
+				FC31D26523B3DACA006162D7 /* Info.plist */,
 			);
-			path = HeatMapTests;
-			sourceTree = "<group>";
-		};
-		FC31D22623B3D914006162D7 /* HeatMapUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FC31D22723B3D914006162D7 /* HeatMapUITests.swift */,
-				FC31D22923B3D914006162D7 /* Info.plist */,
-			);
-			path = HeatMapUITests;
+			path = HeatmapAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC31D20123B3D907006162D7 /* HeatMap */ = {
+		FC31D23D23B3DAC1006162D7 /* HeatmapApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC31D22C23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMap" */;
+			buildConfigurationList = FC31D26823B3DACB006162D7 /* Build configuration list for PBXNativeTarget "HeatmapApp" */;
 			buildPhases = (
-				FC31D1FE23B3D907006162D7 /* Sources */,
-				FC31D1FF23B3D907006162D7 /* Frameworks */,
-				FC31D20023B3D907006162D7 /* Resources */,
+				FC31D23A23B3DAC1006162D7 /* Sources */,
+				FC31D23B23B3DAC1006162D7 /* Frameworks */,
+				FC31D23C23B3DAC1006162D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HeatMap;
-			productName = HeatMap;
-			productReference = FC31D20223B3D907006162D7 /* HeatMap.app */;
+			name = HeatmapApp;
+			productName = HeatmapApp;
+			productReference = FC31D23E23B3DAC1006162D7 /* HeatmapApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC31D21723B3D914006162D7 /* HeatMapTests */ = {
+		FC31D25323B3DACA006162D7 /* HeatmapAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC31D22F23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapTests" */;
+			buildConfigurationList = FC31D26B23B3DACB006162D7 /* Build configuration list for PBXNativeTarget "HeatmapAppTests" */;
 			buildPhases = (
-				FC31D21423B3D914006162D7 /* Sources */,
-				FC31D21523B3D914006162D7 /* Frameworks */,
-				FC31D21623B3D914006162D7 /* Resources */,
+				FC31D25023B3DACA006162D7 /* Sources */,
+				FC31D25123B3DACA006162D7 /* Frameworks */,
+				FC31D25223B3DACA006162D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC31D21A23B3D914006162D7 /* PBXTargetDependency */,
+				FC31D25623B3DACA006162D7 /* PBXTargetDependency */,
 			);
-			name = HeatMapTests;
-			productName = HeatMapTests;
-			productReference = FC31D21823B3D914006162D7 /* HeatMapTests.xctest */;
+			name = HeatmapAppTests;
+			productName = HeatmapAppTests;
+			productReference = FC31D25423B3DACA006162D7 /* HeatmapAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FC31D22223B3D914006162D7 /* HeatMapUITests */ = {
+		FC31D25E23B3DACA006162D7 /* HeatmapAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC31D23223B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapUITests" */;
+			buildConfigurationList = FC31D26E23B3DACB006162D7 /* Build configuration list for PBXNativeTarget "HeatmapAppUITests" */;
 			buildPhases = (
-				FC31D21F23B3D914006162D7 /* Sources */,
-				FC31D22023B3D914006162D7 /* Frameworks */,
-				FC31D22123B3D914006162D7 /* Resources */,
+				FC31D25B23B3DACA006162D7 /* Sources */,
+				FC31D25C23B3DACA006162D7 /* Frameworks */,
+				FC31D25D23B3DACA006162D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC31D22523B3D914006162D7 /* PBXTargetDependency */,
+				FC31D26123B3DACA006162D7 /* PBXTargetDependency */,
 			);
-			name = HeatMapUITests;
-			productName = HeatMapUITests;
-			productReference = FC31D22323B3D914006162D7 /* HeatMapUITests.xctest */;
+			name = HeatmapAppUITests;
+			productName = HeatmapAppUITests;
+			productReference = FC31D25F23B3DACA006162D7 /* HeatmapAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC31D1FA23B3D907006162D7 /* Project object */ = {
+		FC31D23623B3DAC1006162D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Big Ahi Software";
 				TargetAttributes = {
-					FC31D20123B3D907006162D7 = {
+					FC31D23D23B3DAC1006162D7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
-					FC31D21723B3D914006162D7 = {
+					FC31D25323B3DACA006162D7 = {
 						CreatedOnToolsVersion = 11.1;
-						TestTargetID = FC31D20123B3D907006162D7;
+						TestTargetID = FC31D23D23B3DAC1006162D7;
 					};
-					FC31D22223B3D914006162D7 = {
+					FC31D25E23B3DACA006162D7 = {
 						CreatedOnToolsVersion = 11.1;
-						TestTargetID = FC31D20123B3D907006162D7;
+						TestTargetID = FC31D23D23B3DAC1006162D7;
 					};
 				};
 			};
-			buildConfigurationList = FC31D1FD23B3D907006162D7 /* Build configuration list for PBXProject "HeatMap" */;
+			buildConfigurationList = FC31D23923B3DAC1006162D7 /* Build configuration list for PBXProject "HeatmapApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = FC31D1F923B3D907006162D7;
-			productRefGroup = FC31D20323B3D907006162D7 /* Products */;
+			mainGroup = FC31D23523B3DAC1006162D7;
+			productRefGroup = FC31D23F23B3DAC1006162D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC31D20123B3D907006162D7 /* HeatMap */,
-				FC31D21723B3D914006162D7 /* HeatMapTests */,
-				FC31D22223B3D914006162D7 /* HeatMapUITests */,
+				FC31D23D23B3DAC1006162D7 /* HeatmapApp */,
+				FC31D25323B3DACA006162D7 /* HeatmapAppTests */,
+				FC31D25E23B3DACA006162D7 /* HeatmapAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC31D20023B3D907006162D7 /* Resources */ = {
+		FC31D23C23B3DAC1006162D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC31D21223B3D913006162D7 /* LaunchScreen.storyboard in Resources */,
-				FC31D20F23B3D913006162D7 /* Preview Assets.xcassets in Resources */,
-				FC31D20C23B3D913006162D7 /* Assets.xcassets in Resources */,
+				FC31D24E23B3DAC9006162D7 /* LaunchScreen.storyboard in Resources */,
+				FC31D24B23B3DAC9006162D7 /* Assets.xcassets in Resources */,
+				FC31D24923B3DAC1006162D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC31D21623B3D914006162D7 /* Resources */ = {
+		FC31D25223B3DACA006162D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC31D22123B3D914006162D7 /* Resources */ = {
+		FC31D25D23B3DACA006162D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,52 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC31D1FE23B3D907006162D7 /* Sources */ = {
+		FC31D23A23B3DAC1006162D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC31D20623B3D907006162D7 /* AppDelegate.swift in Sources */,
-				FC31D20823B3D907006162D7 /* SceneDelegate.swift in Sources */,
-				FC31D20A23B3D907006162D7 /* ContentView.swift in Sources */,
+				FC31D24623B3DAC1006162D7 /* ViewController.swift in Sources */,
+				FC31D24223B3DAC1006162D7 /* AppDelegate.swift in Sources */,
+				FC31D24423B3DAC1006162D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC31D21423B3D914006162D7 /* Sources */ = {
+		FC31D25023B3DACA006162D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC31D21D23B3D914006162D7 /* HeatMapTests.swift in Sources */,
+				FC31D25923B3DACA006162D7 /* HeatmapAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC31D21F23B3D914006162D7 /* Sources */ = {
+		FC31D25B23B3DACA006162D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC31D22823B3D914006162D7 /* HeatMapUITests.swift in Sources */,
+				FC31D26423B3DACA006162D7 /* HeatmapAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC31D21A23B3D914006162D7 /* PBXTargetDependency */ = {
+		FC31D25623B3DACA006162D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC31D20123B3D907006162D7 /* HeatMap */;
-			targetProxy = FC31D21923B3D914006162D7 /* PBXContainerItemProxy */;
+			target = FC31D23D23B3DAC1006162D7 /* HeatmapApp */;
+			targetProxy = FC31D25523B3DACA006162D7 /* PBXContainerItemProxy */;
 		};
-		FC31D22523B3D914006162D7 /* PBXTargetDependency */ = {
+		FC31D26123B3DACA006162D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC31D20123B3D907006162D7 /* HeatMap */;
-			targetProxy = FC31D22423B3D914006162D7 /* PBXContainerItemProxy */;
+			target = FC31D23D23B3DAC1006162D7 /* HeatmapApp */;
+			targetProxy = FC31D26023B3DACA006162D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC31D21023B3D913006162D7 /* LaunchScreen.storyboard */ = {
+		FC31D24723B3DAC1006162D7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC31D21123B3D913006162D7 /* Base */,
+				FC31D24823B3DAC1006162D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC31D24C23B3DAC9006162D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC31D24D23B3DAC9006162D7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FC31D22A23B3D914006162D7 /* Debug */ = {
+		FC31D26623B3DACB006162D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		FC31D22B23B3D914006162D7 /* Release */ = {
+		FC31D26723B3DACB006162D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,170 +430,166 @@
 			};
 			name = Release;
 		};
-		FC31D22D23B3D914006162D7 /* Debug */ = {
+		FC31D26923B3DACB006162D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HeatMap/Preview Content\"";
 				DEVELOPMENT_TEAM = JXS7RJNK43;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HeatMap/Info.plist;
+				INFOPLIST_FILE = HeatmapApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMap";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatmapApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FC31D22E23B3D914006162D7 /* Release */ = {
+		FC31D26A23B3DACB006162D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HeatMap/Preview Content\"";
 				DEVELOPMENT_TEAM = JXS7RJNK43;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HeatMap/Info.plist;
+				INFOPLIST_FILE = HeatmapApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMap";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatmapApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		FC31D23023B3D914006162D7 /* Debug */ = {
+		FC31D26C23B3DACB006162D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXS7RJNK43;
-				INFOPLIST_FILE = HeatMapTests/Info.plist;
+				INFOPLIST_FILE = HeatmapAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatmapAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatMap.app/HeatMap";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatmapApp.app/HeatmapApp";
 			};
 			name = Debug;
 		};
-		FC31D23123B3D914006162D7 /* Release */ = {
+		FC31D26D23B3DACB006162D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXS7RJNK43;
-				INFOPLIST_FILE = HeatMapTests/Info.plist;
+				INFOPLIST_FILE = HeatmapAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatmapAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatMap.app/HeatMap";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatmapApp.app/HeatmapApp";
 			};
 			name = Release;
 		};
-		FC31D23323B3D914006162D7 /* Debug */ = {
+		FC31D26F23B3DACB006162D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXS7RJNK43;
-				INFOPLIST_FILE = HeatMapUITests/Info.plist;
+				INFOPLIST_FILE = HeatmapAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatmapAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HeatMap;
+				TEST_TARGET_NAME = HeatmapApp;
 			};
 			name = Debug;
 		};
-		FC31D23423B3D914006162D7 /* Release */ = {
+		FC31D27023B3DACB006162D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXS7RJNK43;
-				INFOPLIST_FILE = HeatMapUITests/Info.plist;
+				INFOPLIST_FILE = HeatmapAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatmapAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HeatMap;
+				TEST_TARGET_NAME = HeatmapApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC31D1FD23B3D907006162D7 /* Build configuration list for PBXProject "HeatMap" */ = {
+		FC31D23923B3DAC1006162D7 /* Build configuration list for PBXProject "HeatmapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC31D22A23B3D914006162D7 /* Debug */,
-				FC31D22B23B3D914006162D7 /* Release */,
+				FC31D26623B3DACB006162D7 /* Debug */,
+				FC31D26723B3DACB006162D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC31D22C23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMap" */ = {
+		FC31D26823B3DACB006162D7 /* Build configuration list for PBXNativeTarget "HeatmapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC31D22D23B3D914006162D7 /* Debug */,
-				FC31D22E23B3D914006162D7 /* Release */,
+				FC31D26923B3DACB006162D7 /* Debug */,
+				FC31D26A23B3DACB006162D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC31D22F23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapTests" */ = {
+		FC31D26B23B3DACB006162D7 /* Build configuration list for PBXNativeTarget "HeatmapAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC31D23023B3D914006162D7 /* Debug */,
-				FC31D23123B3D914006162D7 /* Release */,
+				FC31D26C23B3DACB006162D7 /* Debug */,
+				FC31D26D23B3DACB006162D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC31D23223B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapUITests" */ = {
+		FC31D26E23B3DACB006162D7 /* Build configuration list for PBXNativeTarget "HeatmapAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC31D23323B3D914006162D7 /* Debug */,
-				FC31D23423B3D914006162D7 /* Release */,
+				FC31D26F23B3DACB006162D7 /* Debug */,
+				FC31D27023B3DACB006162D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC31D1FA23B3D907006162D7 /* Project object */;
+	rootObject = FC31D23623B3DAC1006162D7 /* Project object */;
 }

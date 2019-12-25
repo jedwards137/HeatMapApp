@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  HeatMap
+//  HeatmapApp
 //
 //  Created by Jake Edwards on 12/25/19.
 //  Copyright © 2019 Big Ahi Software. All rights reserved.

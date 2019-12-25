@@ -1,15 +1,15 @@
 //
-//  HeatMapTests.swift
-//  HeatMapTests
+//  HeatmapAppTests.swift
+//  HeatmapAppTests
 //
 //  Created by Jake Edwards on 12/25/19.
 //  Copyright © 2019 Big Ahi Software. All rights reserved.
 //
 
 import XCTest
-@testable import HeatMap
+@testable import HeatmapApp
 
-class HeatMapTests: XCTestCase {
+class HeatmapAppTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
