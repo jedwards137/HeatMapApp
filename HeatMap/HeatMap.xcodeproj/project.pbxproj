@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC31D20623B3D907006162D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D20523B3D907006162D7 /* AppDelegate.swift */; };
+		FC31D20823B3D907006162D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D20723B3D907006162D7 /* SceneDelegate.swift */; };
+		FC31D20A23B3D907006162D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D20923B3D907006162D7 /* ContentView.swift */; };
+		FC31D20C23B3D913006162D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31D20B23B3D913006162D7 /* Assets.xcassets */; };
+		FC31D20F23B3D913006162D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31D20E23B3D913006162D7 /* Preview Assets.xcassets */; };
+		FC31D21223B3D913006162D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31D21023B3D913006162D7 /* LaunchScreen.storyboard */; };
+		FC31D21D23B3D914006162D7 /* HeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D21C23B3D914006162D7 /* HeatMapTests.swift */; };
+		FC31D22823B3D914006162D7 /* HeatMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31D22723B3D914006162D7 /* HeatMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC31D21923B3D914006162D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC31D1FA23B3D907006162D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC31D20123B3D907006162D7;
+			remoteInfo = HeatMap;
+		};
+		FC31D22423B3D914006162D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC31D1FA23B3D907006162D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC31D20123B3D907006162D7;
+			remoteInfo = HeatMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC31D20223B3D907006162D7 /* HeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC31D20523B3D907006162D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC31D20723B3D907006162D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC31D20923B3D907006162D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC31D20B23B3D913006162D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC31D20E23B3D913006162D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC31D21123B3D913006162D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC31D21323B3D913006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31D21823B3D914006162D7 /* HeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC31D21C23B3D914006162D7 /* HeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapTests.swift; sourceTree = "<group>"; };
+		FC31D21E23B3D914006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31D22323B3D914006162D7 /* HeatMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC31D22723B3D914006162D7 /* HeatMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapUITests.swift; sourceTree = "<group>"; };
+		FC31D22923B3D914006162D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC31D1FF23B3D907006162D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31D21523B3D914006162D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31D22023B3D914006162D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC31D1F923B3D907006162D7 = {
+			isa = PBXGroup;
+			children = (
+				FC31D20423B3D907006162D7 /* HeatMap */,
+				FC31D21B23B3D914006162D7 /* HeatMapTests */,
+				FC31D22623B3D914006162D7 /* HeatMapUITests */,
+				FC31D20323B3D907006162D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC31D20323B3D907006162D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC31D20223B3D907006162D7 /* HeatMap.app */,
+				FC31D21823B3D914006162D7 /* HeatMapTests.xctest */,
+				FC31D22323B3D914006162D7 /* HeatMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC31D20423B3D907006162D7 /* HeatMap */ = {
+			isa = PBXGroup;
+			children = (
+				FC31D20523B3D907006162D7 /* AppDelegate.swift */,
+				FC31D20723B3D907006162D7 /* SceneDelegate.swift */,
+				FC31D20923B3D907006162D7 /* ContentView.swift */,
+				FC31D20B23B3D913006162D7 /* Assets.xcassets */,
+				FC31D21023B3D913006162D7 /* LaunchScreen.storyboard */,
+				FC31D21323B3D913006162D7 /* Info.plist */,
+				FC31D20D23B3D913006162D7 /* Preview Content */,
+			);
+			path = HeatMap;
+			sourceTree = "<group>";
+		};
+		FC31D20D23B3D913006162D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC31D20E23B3D913006162D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC31D21B23B3D914006162D7 /* HeatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC31D21C23B3D914006162D7 /* HeatMapTests.swift */,
+				FC31D21E23B3D914006162D7 /* Info.plist */,
+			);
+			path = HeatMapTests;
+			sourceTree = "<group>";
+		};
+		FC31D22623B3D914006162D7 /* HeatMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC31D22723B3D914006162D7 /* HeatMapUITests.swift */,
+				FC31D22923B3D914006162D7 /* Info.plist */,
+			);
+			path = HeatMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC31D20123B3D907006162D7 /* HeatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC31D22C23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMap" */;
+			buildPhases = (
+				FC31D1FE23B3D907006162D7 /* Sources */,
+				FC31D1FF23B3D907006162D7 /* Frameworks */,
+				FC31D20023B3D907006162D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatMap;
+			productName = HeatMap;
+			productReference = FC31D20223B3D907006162D7 /* HeatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC31D21723B3D914006162D7 /* HeatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC31D22F23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapTests" */;
+			buildPhases = (
+				FC31D21423B3D914006162D7 /* Sources */,
+				FC31D21523B3D914006162D7 /* Frameworks */,
+				FC31D21623B3D914006162D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC31D21A23B3D914006162D7 /* PBXTargetDependency */,
+			);
+			name = HeatMapTests;
+			productName = HeatMapTests;
+			productReference = FC31D21823B3D914006162D7 /* HeatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC31D22223B3D914006162D7 /* HeatMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC31D23223B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapUITests" */;
+			buildPhases = (
+				FC31D21F23B3D914006162D7 /* Sources */,
+				FC31D22023B3D914006162D7 /* Frameworks */,
+				FC31D22123B3D914006162D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC31D22523B3D914006162D7 /* PBXTargetDependency */,
+			);
+			name = HeatMapUITests;
+			productName = HeatMapUITests;
+			productReference = FC31D22323B3D914006162D7 /* HeatMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC31D1FA23B3D907006162D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Big Ahi Software";
+				TargetAttributes = {
+					FC31D20123B3D907006162D7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					FC31D21723B3D914006162D7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FC31D20123B3D907006162D7;
+					};
+					FC31D22223B3D914006162D7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FC31D20123B3D907006162D7;
+					};
+				};
+			};
+			buildConfigurationList = FC31D1FD23B3D907006162D7 /* Build configuration list for PBXProject "HeatMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC31D1F923B3D907006162D7;
+			productRefGroup = FC31D20323B3D907006162D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC31D20123B3D907006162D7 /* HeatMap */,
+				FC31D21723B3D914006162D7 /* HeatMapTests */,
+				FC31D22223B3D914006162D7 /* HeatMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC31D20023B3D907006162D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC31D21223B3D913006162D7 /* LaunchScreen.storyboard in Resources */,
+				FC31D20F23B3D913006162D7 /* Preview Assets.xcassets in Resources */,
+				FC31D20C23B3D913006162D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31D21623B3D914006162D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31D22123B3D914006162D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC31D1FE23B3D907006162D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC31D20623B3D907006162D7 /* AppDelegate.swift in Sources */,
+				FC31D20823B3D907006162D7 /* SceneDelegate.swift in Sources */,
+				FC31D20A23B3D907006162D7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31D21423B3D914006162D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC31D21D23B3D914006162D7 /* HeatMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31D21F23B3D914006162D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC31D22823B3D914006162D7 /* HeatMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC31D21A23B3D914006162D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC31D20123B3D907006162D7 /* HeatMap */;
+			targetProxy = FC31D21923B3D914006162D7 /* PBXContainerItemProxy */;
+		};
+		FC31D22523B3D914006162D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC31D20123B3D907006162D7 /* HeatMap */;
+			targetProxy = FC31D22423B3D914006162D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC31D21023B3D913006162D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC31D21123B3D913006162D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC31D22A23B3D914006162D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC31D22B23B3D914006162D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC31D22D23B3D914006162D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeatMap/Preview Content\"";
+				DEVELOPMENT_TEAM = JXS7RJNK43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HeatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC31D22E23B3D914006162D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HeatMap/Preview Content\"";
+				DEVELOPMENT_TEAM = JXS7RJNK43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HeatMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC31D23023B3D914006162D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXS7RJNK43;
+				INFOPLIST_FILE = HeatMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatMap.app/HeatMap";
+			};
+			name = Debug;
+		};
+		FC31D23123B3D914006162D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXS7RJNK43;
+				INFOPLIST_FILE = HeatMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatMap.app/HeatMap";
+			};
+			name = Release;
+		};
+		FC31D23323B3D914006162D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXS7RJNK43;
+				INFOPLIST_FILE = HeatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeatMap;
+			};
+			name = Debug;
+		};
+		FC31D23423B3D914006162D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXS7RJNK43;
+				INFOPLIST_FILE = HeatMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Big-Ahi-Software.HeatMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeatMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC31D1FD23B3D907006162D7 /* Build configuration list for PBXProject "HeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC31D22A23B3D914006162D7 /* Debug */,
+				FC31D22B23B3D914006162D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC31D22C23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC31D22D23B3D914006162D7 /* Debug */,
+				FC31D22E23B3D914006162D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC31D22F23B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC31D23023B3D914006162D7 /* Debug */,
+				FC31D23123B3D914006162D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC31D23223B3D914006162D7 /* Build configuration list for PBXNativeTarget "HeatMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC31D23323B3D914006162D7 /* Debug */,
+				FC31D23423B3D914006162D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC31D1FA23B3D907006162D7 /* Project object */;
+}
