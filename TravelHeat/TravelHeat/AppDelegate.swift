@@ -18,12 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private let locationManager = CLLocationManager()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        
         center.requestAuthorization(options: [.alert, .sound]) { granted, error in }
         locationManager.requestAlwaysAuthorization()
         locationManager.startMonitoringVisits()
         locationManager.delegate = self
-        
-        FirebaseApp.configure()
         
         return true
     }
@@ -62,7 +62,7 @@ extension AppDelegate: CLLocationManagerDelegate {
 
   func newVisitReceived(_ visit: CLVisit, description: String) {
     let location = Location(visit: visit, descriptionString: description)
-
+    LocationsStore.shared.saveNew(location)
     // send user notification
     // 1
     let content = UNMutableNotificationContent()
@@ -76,5 +76,7 @@ extension AppDelegate: CLLocationManagerDelegate {
 
     // 3
     center.add(request, withCompletionHandler: nil)
+    
+    
   }
 }
