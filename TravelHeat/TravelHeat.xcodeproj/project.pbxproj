@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200BE13BE6DC576E84F8AB1E /* Pods_TravelHeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC230D8862B04570BDD3EFF /* Pods_TravelHeat.framework */; };
+		7B435DBE5FAC6DD5550BE911 /* Pods_TravelHeat_TravelHeatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE60AFD3EEE2ACF3FFF813D /* Pods_TravelHeat_TravelHeatUITests.framework */; };
+		A9A6034F1DDFABEF4E68DD18 /* Pods_TravelHeatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843A92F4FE83AC35720FED /* Pods_TravelHeatTests.framework */; };
+		D95A615C251E3734009670F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A615B251E3734009670F7 /* AppDelegate.swift */; };
+		D95A615E251E3734009670F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A615D251E3734009670F7 /* SceneDelegate.swift */; };
+		D95A6160251E3734009670F7 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A615F251E3734009670F7 /* LocationsViewController.swift */; };
+		D95A6163251E3734009670F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95A6161251E3734009670F7 /* Main.storyboard */; };
+		D95A6165251E374C009670F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95A6164251E374C009670F7 /* Assets.xcassets */; };
+		D95A6168251E374C009670F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95A6166251E374C009670F7 /* LaunchScreen.storyboard */; };
+		D95A6173251E374C009670F7 /* TravelHeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A6172251E374C009670F7 /* TravelHeatTests.swift */; };
+		D95A617E251E374C009670F7 /* TravelHeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A617D251E374C009670F7 /* TravelHeatUITests.swift */; };
+		D95A618F251E37CA009670F7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A618E251E37CA009670F7 /* Extensions.swift */; };
+		D95A619A251E3971009670F7 /* UIPageViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A6199251E3971009670F7 /* UIPageViewBase.swift */; };
+		D95A619F251E3997009670F7 /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A619E251E3997009670F7 /* UIViewControllerBase.swift */; };
+		D95A61AB251E3AD6009670F7 /* LocationsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A61AA251E3AD6009670F7 /* LocationsPageView.swift */; };
+		D95A61B1251E3C53009670F7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A61B0251E3C53009670F7 /* Location.swift */; };
+		D95A61BA251E3CF1009670F7 /* LocationsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A61B9251E3CF1009670F7 /* LocationsStore.swift */; };
+		D95A61C2251E421E009670F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D95A61C1251E421E009670F7 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D95A616F251E374C009670F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D95A6150251E3734009670F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95A6157251E3734009670F7;
+			remoteInfo = TravelHeat;
+		};
+		D95A617A251E374C009670F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D95A6150251E3734009670F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95A6157251E3734009670F7;
+			remoteInfo = TravelHeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3289711AD19D57A2251CC388 /* Pods-TravelHeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeat.release.xcconfig"; path = "Target Support Files/Pods-TravelHeat/Pods-TravelHeat.release.xcconfig"; sourceTree = "<group>"; };
+		4EC230D8862B04570BDD3EFF /* Pods_TravelHeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelHeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE60AFD3EEE2ACF3FFF813D /* Pods_TravelHeat_TravelHeatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelHeat_TravelHeatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F692F1B99DC5AA550D3AAF1 /* Pods-TravelHeat-TravelHeatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeat-TravelHeatUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelHeat-TravelHeatUITests/Pods-TravelHeat-TravelHeatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8805EED1497B036BE83551D8 /* Pods-TravelHeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeat.debug.xcconfig"; path = "Target Support Files/Pods-TravelHeat/Pods-TravelHeat.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1A36829BFE2BE79104E23B /* Pods-TravelHeat-TravelHeatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeat-TravelHeatUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelHeat-TravelHeatUITests/Pods-TravelHeat-TravelHeatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D95A6158251E3734009670F7 /* TravelHeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelHeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95A615B251E3734009670F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D95A615D251E3734009670F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D95A615F251E3734009670F7 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		D95A6162251E3734009670F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D95A6164251E374C009670F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95A6167251E374C009670F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D95A6169251E374C009670F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95A616E251E374C009670F7 /* TravelHeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelHeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95A6172251E374C009670F7 /* TravelHeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelHeatTests.swift; sourceTree = "<group>"; };
+		D95A6174251E374C009670F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95A6179251E374C009670F7 /* TravelHeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelHeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95A617D251E374C009670F7 /* TravelHeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelHeatUITests.swift; sourceTree = "<group>"; };
+		D95A617F251E374C009670F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95A618E251E37CA009670F7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D95A6199251E3971009670F7 /* UIPageViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageViewBase.swift; sourceTree = "<group>"; };
+		D95A619E251E3997009670F7 /* UIViewControllerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerBase.swift; sourceTree = "<group>"; };
+		D95A61AA251E3AD6009670F7 /* LocationsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPageView.swift; sourceTree = "<group>"; };
+		D95A61B0251E3C53009670F7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D95A61B9251E3CF1009670F7 /* LocationsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsStore.swift; sourceTree = "<group>"; };
+		D95A61C1251E421E009670F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9C8F3357A63447724E6840E /* Pods-TravelHeatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeatTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelHeatTests/Pods-TravelHeatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7843A92F4FE83AC35720FED /* Pods_TravelHeatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelHeatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDB19685330E8402B33552F /* Pods-TravelHeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeatTests.release.xcconfig"; path = "Target Support Files/Pods-TravelHeatTests/Pods-TravelHeatTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D95A6155251E3734009670F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200BE13BE6DC576E84F8AB1E /* Pods_TravelHeat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95A616B251E374C009670F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A6034F1DDFABEF4E68DD18 /* Pods_TravelHeatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95A6176251E374C009670F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B435DBE5FAC6DD5550BE911 /* Pods_TravelHeat_TravelHeatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F25BB6FA4CF1A06FF6E9B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC230D8862B04570BDD3EFF /* Pods_TravelHeat.framework */,
+				6EE60AFD3EEE2ACF3FFF813D /* Pods_TravelHeat_TravelHeatUITests.framework */,
+				E7843A92F4FE83AC35720FED /* Pods_TravelHeatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0464B29F449C5E588DF7F9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8805EED1497B036BE83551D8 /* Pods-TravelHeat.debug.xcconfig */,
+				3289711AD19D57A2251CC388 /* Pods-TravelHeat.release.xcconfig */,
+				7F692F1B99DC5AA550D3AAF1 /* Pods-TravelHeat-TravelHeatUITests.debug.xcconfig */,
+				BB1A36829BFE2BE79104E23B /* Pods-TravelHeat-TravelHeatUITests.release.xcconfig */,
+				D9C8F3357A63447724E6840E /* Pods-TravelHeatTests.debug.xcconfig */,
+				FCDB19685330E8402B33552F /* Pods-TravelHeatTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D95A614F251E3734009670F7 = {
+			isa = PBXGroup;
+			children = (
+				D95A615A251E3734009670F7 /* TravelHeat */,
+				D95A6171251E374C009670F7 /* TravelHeatTests */,
+				D95A617C251E374C009670F7 /* TravelHeatUITests */,
+				D95A6159251E3734009670F7 /* Products */,
+				B0464B29F449C5E588DF7F9A /* Pods */,
+				2F25BB6FA4CF1A06FF6E9B50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D95A6159251E3734009670F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D95A6158251E3734009670F7 /* TravelHeat.app */,
+				D95A616E251E374C009670F7 /* TravelHeatTests.xctest */,
+				D95A6179251E374C009670F7 /* TravelHeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95A615A251E3734009670F7 /* TravelHeat */ = {
+			isa = PBXGroup;
+			children = (
+				D95A61B8251E3CD6009670F7 /* Data */,
+				D95A61AF251E3C3D009670F7 /* Models */,
+				D95A6193251E37EF009670F7 /* Views */,
+				D95A615B251E3734009670F7 /* AppDelegate.swift */,
+				D95A615D251E3734009670F7 /* SceneDelegate.swift */,
+				D95A6161251E3734009670F7 /* Main.storyboard */,
+				D95A6164251E374C009670F7 /* Assets.xcassets */,
+				D95A6166251E374C009670F7 /* LaunchScreen.storyboard */,
+				D95A6169251E374C009670F7 /* Info.plist */,
+				D95A61C1251E421E009670F7 /* GoogleService-Info.plist */,
+			);
+			path = TravelHeat;
+			sourceTree = "<group>";
+		};
+		D95A6171251E374C009670F7 /* TravelHeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D95A6172251E374C009670F7 /* TravelHeatTests.swift */,
+				D95A6174251E374C009670F7 /* Info.plist */,
+			);
+			path = TravelHeatTests;
+			sourceTree = "<group>";
+		};
+		D95A617C251E374C009670F7 /* TravelHeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D95A617D251E374C009670F7 /* TravelHeatUITests.swift */,
+				D95A617F251E374C009670F7 /* Info.plist */,
+			);
+			path = TravelHeatUITests;
+			sourceTree = "<group>";
+		};
+		D95A6193251E37EF009670F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D95A61A6251E39F1009670F7 /* Locations */,
+				D95A6198251E3959009670F7 /* Common */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D95A6198251E3959009670F7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D95A618E251E37CA009670F7 /* Extensions.swift */,
+				D95A6199251E3971009670F7 /* UIPageViewBase.swift */,
+				D95A619E251E3997009670F7 /* UIViewControllerBase.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D95A61A6251E39F1009670F7 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				D95A615F251E3734009670F7 /* LocationsViewController.swift */,
+				D95A61AA251E3AD6009670F7 /* LocationsPageView.swift */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		D95A61AF251E3C3D009670F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D95A61B0251E3C53009670F7 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D95A61B8251E3CD6009670F7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D95A61B9251E3CF1009670F7 /* LocationsStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D95A6157251E3734009670F7 /* TravelHeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95A6182251E374C009670F7 /* Build configuration list for PBXNativeTarget "TravelHeat" */;
+			buildPhases = (
+				18804F454CA3337BC49DDE04 /* [CP] Check Pods Manifest.lock */,
+				D95A6154251E3734009670F7 /* Sources */,
+				D95A6155251E3734009670F7 /* Frameworks */,
+				D95A6156251E3734009670F7 /* Resources */,
+				CBB0F5B87049F5AB63A7DE13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelHeat;
+			productName = TravelHeat;
+			productReference = D95A6158251E3734009670F7 /* TravelHeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D95A616D251E374C009670F7 /* TravelHeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95A6185251E374C009670F7 /* Build configuration list for PBXNativeTarget "TravelHeatTests" */;
+			buildPhases = (
+				57E4B778F99267F3914D230B /* [CP] Check Pods Manifest.lock */,
+				D95A616A251E374C009670F7 /* Sources */,
+				D95A616B251E374C009670F7 /* Frameworks */,
+				D95A616C251E374C009670F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95A6170251E374C009670F7 /* PBXTargetDependency */,
+			);
+			name = TravelHeatTests;
+			productName = TravelHeatTests;
+			productReference = D95A616E251E374C009670F7 /* TravelHeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D95A6178251E374C009670F7 /* TravelHeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95A6188251E374C009670F7 /* Build configuration list for PBXNativeTarget "TravelHeatUITests" */;
+			buildPhases = (
+				6EF4D206020E8CC2EAE45DD6 /* [CP] Check Pods Manifest.lock */,
+				D95A6175251E374C009670F7 /* Sources */,
+				D95A6176251E374C009670F7 /* Frameworks */,
+				D95A6177251E374C009670F7 /* Resources */,
+				A4EECB2C6442DE1643F12F5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95A617B251E374C009670F7 /* PBXTargetDependency */,
+			);
+			name = TravelHeatUITests;
+			productName = TravelHeatUITests;
+			productReference = D95A6179251E374C009670F7 /* TravelHeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D95A6150251E3734009670F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D95A6157251E3734009670F7 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D95A616D251E374C009670F7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D95A6157251E3734009670F7;
+					};
+					D95A6178251E374C009670F7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D95A6157251E3734009670F7;
+					};
+				};
+			};
+			buildConfigurationList = D95A6153251E3734009670F7 /* Build configuration list for PBXProject "TravelHeat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D95A614F251E3734009670F7;
+			productRefGroup = D95A6159251E3734009670F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D95A6157251E3734009670F7 /* TravelHeat */,
+				D95A616D251E374C009670F7 /* TravelHeatTests */,
+				D95A6178251E374C009670F7 /* TravelHeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D95A6156251E3734009670F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95A6168251E374C009670F7 /* LaunchScreen.storyboard in Resources */,
+				D95A6165251E374C009670F7 /* Assets.xcassets in Resources */,
+				D95A6163251E3734009670F7 /* Main.storyboard in Resources */,
+				D95A61C2251E421E009670F7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95A616C251E374C009670F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95A6177251E374C009670F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18804F454CA3337BC49DDE04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelHeat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57E4B778F99267F3914D230B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelHeatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF4D206020E8CC2EAE45DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelHeat-TravelHeatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4EECB2C6442DE1643F12F5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelHeat-TravelHeatUITests/Pods-TravelHeat-TravelHeatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelHeat-TravelHeatUITests/Pods-TravelHeat-TravelHeatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelHeat-TravelHeatUITests/Pods-TravelHeat-TravelHeatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB0F5B87049F5AB63A7DE13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelHeat/Pods-TravelHeat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelHeat/Pods-TravelHeat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelHeat/Pods-TravelHeat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D95A6154251E3734009670F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95A6160251E3734009670F7 /* LocationsViewController.swift in Sources */,
+				D95A615C251E3734009670F7 /* AppDelegate.swift in Sources */,
+				D95A61B1251E3C53009670F7 /* Location.swift in Sources */,
+				D95A61BA251E3CF1009670F7 /* LocationsStore.swift in Sources */,
+				D95A615E251E3734009670F7 /* SceneDelegate.swift in Sources */,
+				D95A619A251E3971009670F7 /* UIPageViewBase.swift in Sources */,
+				D95A618F251E37CA009670F7 /* Extensions.swift in Sources */,
+				D95A61AB251E3AD6009670F7 /* LocationsPageView.swift in Sources */,
+				D95A619F251E3997009670F7 /* UIViewControllerBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95A616A251E374C009670F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95A6173251E374C009670F7 /* TravelHeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95A6175251E374C009670F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95A617E251E374C009670F7 /* TravelHeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D95A6170251E374C009670F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95A6157251E3734009670F7 /* TravelHeat */;
+			targetProxy = D95A616F251E374C009670F7 /* PBXContainerItemProxy */;
+		};
+		D95A617B251E374C009670F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95A6157251E3734009670F7 /* TravelHeat */;
+			targetProxy = D95A617A251E374C009670F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D95A6161251E3734009670F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95A6162251E3734009670F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D95A6166251E374C009670F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95A6167251E374C009670F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D95A6180251E374C009670F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D95A6181251E374C009670F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D95A6183251E374C009670F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8805EED1497B036BE83551D8 /* Pods-TravelHeat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W38R2C8M4;
+				INFOPLIST_FILE = TravelHeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D95A6184251E374C009670F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3289711AD19D57A2251CC388 /* Pods-TravelHeat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W38R2C8M4;
+				INFOPLIST_FILE = TravelHeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D95A6186251E374C009670F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C8F3357A63447724E6840E /* Pods-TravelHeatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W38R2C8M4;
+				INFOPLIST_FILE = TravelHeatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelHeat.app/TravelHeat";
+			};
+			name = Debug;
+		};
+		D95A6187251E374C009670F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCDB19685330E8402B33552F /* Pods-TravelHeatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W38R2C8M4;
+				INFOPLIST_FILE = TravelHeatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelHeat.app/TravelHeat";
+			};
+			name = Release;
+		};
+		D95A6189251E374C009670F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F692F1B99DC5AA550D3AAF1 /* Pods-TravelHeat-TravelHeatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W38R2C8M4;
+				INFOPLIST_FILE = TravelHeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelHeat;
+			};
+			name = Debug;
+		};
+		D95A618A251E374C009670F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1A36829BFE2BE79104E23B /* Pods-TravelHeat-TravelHeatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W38R2C8M4;
+				INFOPLIST_FILE = TravelHeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelHeat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D95A6153251E3734009670F7 /* Build configuration list for PBXProject "TravelHeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95A6180251E374C009670F7 /* Debug */,
+				D95A6181251E374C009670F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95A6182251E374C009670F7 /* Build configuration list for PBXNativeTarget "TravelHeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95A6183251E374C009670F7 /* Debug */,
+				D95A6184251E374C009670F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95A6185251E374C009670F7 /* Build configuration list for PBXNativeTarget "TravelHeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95A6186251E374C009670F7 /* Debug */,
+				D95A6187251E374C009670F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95A6188251E374C009670F7 /* Build configuration list for PBXNativeTarget "TravelHeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95A6189251E374C009670F7 /* Debug */,
+				D95A618A251E374C009670F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D95A6150251E3734009670F7 /* Project object */;
+}
