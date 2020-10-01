@@ -91,3 +91,7 @@ iOSInjectionProject/
 
 # Google Keys
 Travel Heat/GoogleService-Info.plist
+GoogleService-Info.plist
+Podfile.lock
+contents.xcworkspacedata
+IDEWorkspaceChecks.plist
