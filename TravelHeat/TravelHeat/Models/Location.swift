@@ -9,25 +9,26 @@ import Foundation
 import CoreLocation
 import FirebaseDatabase
 
-public class Location: Codable {
-    private static let dateFormatter: DateFormatter = {
+public class Location {
+    public static let dateFormatter: DateFormatter = {
       let formatter = DateFormatter()
       formatter.dateStyle = .medium
       formatter.timeStyle = .medium
       return formatter
     }()
     
+    private(set) var Ref: DatabaseReference?
+    private(set) var Key: String?
+    
     private(set) var latitude: Double
     private(set) var longitude: Double
     private(set) var date: Date
-    private(set) var dateString: String = ""
     private(set) var description: String
     
     init(_ location: CLLocationCoordinate2D, date: Date, descriptionString: String) {
       latitude =  location.latitude
       longitude =  location.longitude
       self.date = date
-      dateString = Location.dateFormatter.string(from: date)
       description = descriptionString
     }
     
@@ -44,17 +45,20 @@ public class Location: Codable {
             let description = values["description"] as? String
             else { return nil }
     
+        self.Key = snapshot.key
+        self.Ref = snapshot.ref
+        
         self.latitude = latitude
         self.longitude = longitude
         self.date = date
         self.description = description
     }
     
-    public func toAnyObject() -> Any {
+    public func toAnyObject() -> [String:Any] {
             return [
                 "latitude": self.latitude,
                 "longitude": self.longitude,
-                "date": self.date,
+                "date": Location.dateFormatter.string(from: date),
                 "description": self.description
             ]
         }

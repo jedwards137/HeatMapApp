@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 class LocationsViewController: UIViewControllerBase, UITableViewDelegate, UITableViewDataSource {
     private var PageView = LocationsPageView()
@@ -32,7 +33,8 @@ class LocationsViewController: UIViewControllerBase, UITableViewDelegate, UITabl
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        let numberOfLocations = LocationsStore.shared.Locations.count
+        return numberOfLocations
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -40,7 +42,7 @@ class LocationsViewController: UIViewControllerBase, UITableViewDelegate, UITabl
         let location = LocationsStore.shared.Locations[indexPath.row]
         cell.textLabel?.numberOfLines = 2
         cell.textLabel?.text = location.description
-        cell.detailTextLabel?.text = location.dateString
+        cell.detailTextLabel?.text = Location.dateFormatter.string(from: location.date)
         return cell
     }
     

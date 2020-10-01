@@ -11,18 +11,21 @@ import FirebaseDatabase
 public class LocationsStore {
     static let shared = LocationsStore()
     
+    init() {
+        getLocations()
+    }
+    
     public var Locations: [Location] = []
     
     public func getLocations() {
         let locationsRef = Database.database().reference(withPath: "locations")
-        locationsRef.observe(.value) { (snapshot) in
+        locationsRef.observe(.value) { snapshot in
             var tempLocations: [Location] = []
             for child in snapshot.children {
                 if let snapshot = child as? DataSnapshot, let location = Location(snapshot: snapshot) {
                     tempLocations.append(location)
                 }
             }
-            
             self.Locations = tempLocations
             
             NotificationCenter.default.post(name: .newLocationSaved, object: self, userInfo: nil)

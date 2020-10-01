@@ -25,6 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         locationManager.startMonitoringVisits()
         locationManager.delegate = self
         
+        //Uncomment following code to enable fake visits
+//        locationManager.distanceFilter = 35 // 0
+//        locationManager.allowsBackgroundLocationUpdates = true // 1
+//        locationManager.startUpdatingLocation()  // 2
+        
         return true
     }
 
@@ -72,11 +77,9 @@ extension AppDelegate: CLLocationManagerDelegate {
 
     // 2
     let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
-    let request = UNNotificationRequest(identifier: location.dateString, content: content, trigger: trigger)
+    let request = UNNotificationRequest(identifier: Location.dateFormatter.string(from: location.date), content: content, trigger: trigger)
 
     // 3
     center.add(request, withCompletionHandler: nil)
-    
-    
   }
 }

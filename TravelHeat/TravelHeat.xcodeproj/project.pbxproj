@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,7 +24,9 @@
 		D95A61AB251E3AD6009670F7 /* LocationsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A61AA251E3AD6009670F7 /* LocationsPageView.swift */; };
 		D95A61B1251E3C53009670F7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A61B0251E3C53009670F7 /* Location.swift */; };
 		D95A61BA251E3CF1009670F7 /* LocationsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A61B9251E3CF1009670F7 /* LocationsStore.swift */; };
-		D95A61C2251E421E009670F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D95A61C1251E421E009670F7 /* GoogleService-Info.plist */; };
+		D95A61FA251E5033009670F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D95A61F9251E5032009670F7 /* GoogleService-Info.plist */; };
+		D96AA1282520F322004B65A9 /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D96AA1272520F322004B65A9 /* Route.gpx */; };
+		D96AA1402523D524004B65A9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA13F2523D524004B65A9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +73,9 @@
 		D95A61AA251E3AD6009670F7 /* LocationsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPageView.swift; sourceTree = "<group>"; };
 		D95A61B0251E3C53009670F7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D95A61B9251E3CF1009670F7 /* LocationsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsStore.swift; sourceTree = "<group>"; };
-		D95A61C1251E421E009670F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D95A61F9251E5032009670F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D96AA1272520F322004B65A9 /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
+		D96AA13F2523D524004B65A9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D9C8F3357A63447724E6840E /* Pods-TravelHeatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeatTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelHeatTests/Pods-TravelHeatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7843A92F4FE83AC35720FED /* Pods_TravelHeatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelHeatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDB19685330E8402B33552F /* Pods-TravelHeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelHeatTests.release.xcconfig"; path = "Target Support Files/Pods-TravelHeatTests/Pods-TravelHeatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +129,6 @@
 				D9C8F3357A63447724E6840E /* Pods-TravelHeatTests.debug.xcconfig */,
 				FCDB19685330E8402B33552F /* Pods-TravelHeatTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,6 +157,7 @@
 		D95A615A251E3734009670F7 /* TravelHeat */ = {
 			isa = PBXGroup;
 			children = (
+				D96AA13E2523D50A004B65A9 /* Common */,
 				D95A61B8251E3CD6009670F7 /* Data */,
 				D95A61AF251E3C3D009670F7 /* Models */,
 				D95A6193251E37EF009670F7 /* Views */,
@@ -162,8 +166,9 @@
 				D95A6161251E3734009670F7 /* Main.storyboard */,
 				D95A6164251E374C009670F7 /* Assets.xcassets */,
 				D95A6166251E374C009670F7 /* LaunchScreen.storyboard */,
+				D96AA1272520F322004B65A9 /* Route.gpx */,
 				D95A6169251E374C009670F7 /* Info.plist */,
-				D95A61C1251E421E009670F7 /* GoogleService-Info.plist */,
+				D95A61F9251E5032009670F7 /* GoogleService-Info.plist */,
 			);
 			path = TravelHeat;
 			sourceTree = "<group>";
@@ -228,6 +233,14 @@
 				D95A61B9251E3CF1009670F7 /* LocationsStore.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		D96AA13E2523D50A004B65A9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D96AA13F2523D524004B65A9 /* Extensions.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,8 +353,9 @@
 			files = (
 				D95A6168251E374C009670F7 /* LaunchScreen.storyboard in Resources */,
 				D95A6165251E374C009670F7 /* Assets.xcassets in Resources */,
+				D96AA1282520F322004B65A9 /* Route.gpx in Resources */,
+				D95A61FA251E5033009670F7 /* GoogleService-Info.plist in Resources */,
 				D95A6163251E3734009670F7 /* Main.storyboard in Resources */,
-				D95A61C2251E421E009670F7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +488,7 @@
 				D95A61B1251E3C53009670F7 /* Location.swift in Sources */,
 				D95A61BA251E3CF1009670F7 /* LocationsStore.swift in Sources */,
 				D95A615E251E3734009670F7 /* SceneDelegate.swift in Sources */,
+				D96AA1402523D524004B65A9 /* Extensions.swift in Sources */,
 				D95A619A251E3971009670F7 /* UIPageViewBase.swift in Sources */,
 				D95A618F251E37CA009670F7 /* Extensions.swift in Sources */,
 				D95A61AB251E3AD6009670F7 /* LocationsPageView.swift in Sources */,
@@ -663,6 +678,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -683,6 +699,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Big-Ahi-Dev.TravelHeat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

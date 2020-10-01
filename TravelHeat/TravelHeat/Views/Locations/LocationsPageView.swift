@@ -14,6 +14,12 @@ class LocationsPageView : UIPageViewBase {
         table.backgroundColor = .clear
         return table
     }()
+    var button: UIButton = {
+        let button = UIButton(frame: .zero)
+        button.backgroundColor = .blue
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
     
     override init() {
         super.init()
@@ -21,15 +27,20 @@ class LocationsPageView : UIPageViewBase {
     }
     
     internal override func addSubviews() {
-        let subviews = [LocationsTableView]
+        let subviews = [LocationsTableView, button]
         subviews.forEach { subview in self.addSubview(subview) }
     }
     
     internal override func anchorSubviews() {
         LocationsTableView.setTopAnchor(to: self.topAnchor, withPadding: EdgePadding)
-        LocationsTableView.setBottomAnchor(to: self.bottomAnchor)
+        LocationsTableView.setBottomAnchor(to: button.topAnchor)
         LocationsTableView.setLeadingAnchor(to: self.leadingAnchor, withPadding: EdgePadding)
         LocationsTableView.setTrailingAnchor(to: self.trailingAnchor, withPadding: EdgePadding)
+        
+        button.setHeightAnchor(to: 50)
+        button.setBottomAnchor(to: self.bottomAnchor)
+        button.setLeadingAnchor(to: self.leadingAnchor)
+        button.setTrailingAnchor(to: self.trailingAnchor)
     }
     
     required init?(coder aDecoder: NSCoder) {
