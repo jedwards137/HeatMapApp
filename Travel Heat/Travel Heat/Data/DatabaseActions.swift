@@ -11,13 +11,14 @@ import FirebaseDatabase
 public class DatabaseActions {
     public static func getLocations() {
         let locationsRef = Database.database().reference(withPath: "locations")
-        locationsRef.observe(.value) { snapshot in
+        locationsRef.queryOrdered(byChild: "date").queryLimited(toLast: 35).observe(.value) { snapshot in
             var tempLocations: [Location] = []
             for child in snapshot.children {
                 if let snapshot = child as? DataSnapshot, let location = Location(snapshot: snapshot) {
                     tempLocations.append(location)
                 }
             }
+            tempLocations.reverse()
             LocationsStore.shared.setLocations(with: tempLocations)
         }
     }
