@@ -9,7 +9,7 @@ import Foundation
 
 extension Date {
     func toString() -> String {
-        let format = "yyyy-MM-dd hh:mm:ss"
+        let format = "MM-dd-yyyy HH:mm:ss"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
         let dateString = dateFormatter.string(from: self)
@@ -19,7 +19,7 @@ extension Date {
 
 extension String {
     func toDate() -> Date {
-        let format = "yyyy-MM-dd hh:mm:ss"
+        let format = "MM-dd-yyyy HH:mm:ss"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
         let date = dateFormatter.date(from: self) ?? Date(timeIntervalSinceNow: 0)
